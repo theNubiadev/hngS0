@@ -59,6 +59,10 @@ body {
 .icon {
   margin-right: 5px;
 }
+.location{
+  margin-top: 5px;
+  color: #555;
+}
 .email{
     text-decoration: none;
 }
