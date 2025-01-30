@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="profile-card">
+        <img src="./assets/icon.jpg" alt="profile" class="profile-image" data-testid="profilePicture" />
+
+        <h1 data-testid="fullName" class="name">Ajaiyeoba John Ajibola</h1>
+        <p data-testid="jobTitle" class="role">Frontend Developer</p>
+        <p data-testid="shortBio" class="bio">
+          I am Passionate about building interactive, responsive, and scalable web application. 
+        </p>
+
+        <div class="info">
+          <span data-testid="currentLocation">Oyo Town, Oyo State</span>
+        </div>
+        <div class="email">
+          <span>
+            <a
+             
+              data-testid="emailAddress"
+              class="email"
+              >Ajaiyeobajibola@gmail.com</a
+            >
+          </span>
+        </div>
+
+        <div class="social-icons" data-testid="socialLinks">
+          <a href="https://www.github.com/thenubiadev" target="_blank" class="social github"> <i class="fa-brands fa-github"></i></a>
+          <a href="https://www.linkedln.com/AjaiyeobaJohnAjibola" target="_blank" class="social linkedln"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://www.x.com/theNubiadev" target="_blank" class="social x"><i class="fa-solid fa-xmark"></i></a>
+        </div>
+
+        <p class="utc-time" data-testid="currentTimeUTC">UTC Time <span id="utc-time"></span></p>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+    <script src="https://kit.fontawesome.com/bf172a1461.js" crossorigin="anonymous"></script>
+  </body>
+</html>
